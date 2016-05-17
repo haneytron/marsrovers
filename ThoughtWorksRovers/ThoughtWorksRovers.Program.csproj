@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{864A8301-ADF3-44A5-B9B8-3D3B6654A821}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ThoughtWorksRovers.Program</RootNamespace>
+    <AssemblyName>ThoughtWorksRovers</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Environment\Graph\DirectionsInfo\DirectionsInfoContainer.cs" />
+    <Compile Include="Environment\Graph\DirectionsInfo\DirectionsInformation.cs" />
+    <Compile Include="Environment\Graph\DirectionsInfo\IDirectionsInfoContainer.cs" />
+    <Compile Include="Environment\Graph\Node\GraphNode.cs" />
+    <Compile Include="Environment\Graph\DirectionsInfo\IDirectionsInformation.cs" />
+    <Compile Include="Environment\Graph\IGraph.cs" />
+    <Compile Include="Environment\Graph\Node\IGraphNode.cs" />
+    <Compile Include="Environment\Graph\RoverGraph.cs" />
+    <Compile Include="Environment\IEnvironment.cs" />
+    <Compile Include="Environment\RoverEnvironment.cs" />
+    <Compile Include="Environment\Rover\IRover.cs" />
+    <Compile Include="Environment\Rover\IRoverController.cs" />
+    <Compile Include="Environment\Rover\MarsRover.cs" />
+    <Compile Include="Environment\Rover\RoverController.cs" />
+    <Compile Include="FileParser\IParser.cs" />
+    <Compile Include="FileParser\ParsedData\IParsedCoordinatesData.cs" />
+    <Compile Include="FileParser\ParsedData\IParsedRoverData.cs" />
+    <Compile Include="FileParser\ParsedData\ParsedCoordinatesData.cs" />
+    <Compile Include="FileParser\ParsedData\ParsedRoverData.cs" />
+    <Compile Include="FileParser\TextFileParser.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
