@@ -1,9 +1,9 @@
 # MARS ROVERS
-### An artifact demonstrating that we were all once bad programmers
+### An artifact demonstrating that we all used to be worse programmers
 
 In 2009 I applied to work at ThoughtWorks. They gave me a code test with 3 problems to choose from; I chose Mars Rovers. I recently found a copy of the code that I submitted and felt that I should upload it to GitHub and make it visible to, and reviewable by, everybody.
 
-This repo serves as both evidence and a reminder that skill is developed over time. As developers, we are not amazing at what we do from day 1. It takes effort, ethic, and time to develop a great set of skills. We were all once "bad" at this job. If you frame interactions with me such that you think I've always been a good developer, I invite you to browse this code.
+This repo serves as both evidence and a reminder that skill is developed over time. As developers, we are not amazing at what we do from day 1. It takes effort, persistence, determination, and time to develop great programming skills. We were all once "bad" at this job. If you frame interactions with me such that you think I've always been a good developer, I invite you to browse this code.
 
 When I review this code today, I cringe and laugh at myself. A good sign of progress to me has always been looking back at your prior work and wondering what the hell you were thinking; this no exception. Just check out this part of the `README.txt` of my submission:
 
@@ -13,7 +13,9 @@ Wow. Just wow. I over-engineered the hell out of this problem. I have done some 
 
 Our careers are an ever-evolving path, unique to each of us and filled with uncertainty, curiousity, and growth. I have a ways to go, but am pleased to see progress in myself. In other words: in many ways I'm still a bad coder, but not nearly as bad as I was in 2009. Today's David Haney would certainly not hire 2009 David Haney. 
 
-Oh, and in case you were wondering: they rejected my code solution and I did not get the job. At the time I was upset but today I am very glad. 
+Oh, and in case you were wondering: they rejected my code solution and I did not get the job. At the time I was upset but today I am very glad.
+
+---
 
 ## Mars Rovers Spec
 
@@ -78,7 +80,7 @@ What follows is the verbatim write-up of the `README.txt` that I sent to Thought
 
 ---
 
-# Canada, Mars Rovers, CSharp
+## Canada, Mars Rovers, CSharp
 
 Solution coded entirely by David Haney  
 Solution Started: Monday, September 07, 2009  
@@ -88,7 +90,7 @@ Language: C#
 IDE: Visual Studio 2008  
 OS: Windows 7 Professional 64-bit
 
-## How To Run The Application
+### How To Run The Application
 
 The application is a console app designed for the .NET 2.0 framework. It does not use any of the features 
 of .NET 3.0 or 3.5, however can be configured to build for any desired .NET version within Visual Studio.
@@ -100,7 +102,7 @@ Compile the solution, and then run the application as follows:
 The input file path can be absolute or relative. Instructions are provided if no argument or more than 
 one argument is supplied to the application.
 
-## Design Explanation
+### Design Explanation
 
 I have programmed my solution to follow object-oriented design patterns and best practices to 
 the best of my current knowledge and ability, without adding un-necessary complexity. All 
@@ -131,7 +133,7 @@ to solve the problem at hand and output to console as per the specifications.
 I did not divide the class files into more than one project as that would be adding currently un-needed
 complexity to my solution.
 
-## Assumptions Made
+### Assumptions Made
 
 The following assumptions were made while developing this solution:
 
@@ -142,7 +144,7 @@ had hit a wall. Other considerations were to throw an exception or wrap the grid
 2. As per the directions, I have assumed that the square directly North from (x, y) is (x, y+1), 
 and thus that the other directions exist in parallel to real life cardinal compass points.
 
-## Thanks
+### Thanks
 
 Thanks very much for your time and consideration, and have a terrific day!
 
