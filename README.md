@@ -5,11 +5,11 @@ In 2009 I applied to work at ThoughtWorks. They gave me a code test with 3 probl
 
 This repo serves as both evidence and a reminder that skill is developed over time. As developers, we are not amazing at what we do from day 1. It takes effort, persistence, determination, and time to develop great programming skills. We were all once "bad" at this job. If you frame interactions with me such that you think I've always been a good developer, I invite you to browse this code.
 
-When I review this code today, I cringe and laugh at myself. A good sign of progress to me has always been looking back at your prior work and wondering what the hell you were thinking; this no exception. Just check out this part of the `README.txt` of my submission:
+A good sign of progress to me has always been looking back at your prior work and wondering what the hell you were thinking; this no exception. Just check out this part of the `README.txt` of my submission:
 
 > I have programmed my solution to follow object-oriented design patterns and best practices to the best of my current knowledge and ability, without adding un-necessary complexity.
 
-Wow. Just wow. I over-engineered the hell out of this problem. I have done some terrible, crazy things in this code; and that's not including all the awful XML comments. I hope that you'll find it as amusing as I do, and please, for the love of all that is good, do not learn or take away any best practices from this repo.
+I over-engineered the hell out of this problem. I have done some terrible, crazy, complex things in this code - and that's not including all of the awful XML comments. I hope that you'll find it as amusing as I do. Above all else, please do not mistake this repo for an example of good design patterns or programming practices: it's pretty much the opposite.
 
 Our careers are an ever-evolving path, unique to each of us and filled with uncertainty, curiousity, and growth. I have a ways to go, but am pleased to see progress in myself. In other words: in many ways I'm still a bad coder, but not nearly as bad as I was in 2009. Today's David Haney would certainly not hire 2009 David Haney. 
 
@@ -17,7 +17,7 @@ Oh, and in case you were wondering: they rejected my code solution and I did not
 
 ---
 
-## Mars Rovers Spec
+### MARS ROVER SPEC
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 This plateau, which is curiously rectangular, must be navigated by the
@@ -80,7 +80,7 @@ What follows is the verbatim write-up of the `README.txt` that I sent to Thought
 
 ---
 
-## Canada, Mars Rovers, CSharp
+### CANADA, MARS ROVERS, CSHARP
 
 Solution coded entirely by David Haney  
 Solution Started: Monday, September 07, 2009  
