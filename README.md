@@ -58,15 +58,19 @@ The output for each rover should be its final co-ordinates and heading.
 ### INPUT AND OUTPUT
 
 Test Input:
+```
 5 5
 1 2 N
 LMLMLMLMM
 3 3 E
 MMRMMRMRRM
+```
 
 Expected Output:
+```
 1 3 N
 5 1 E
+```
 
 ---
 
@@ -74,14 +78,14 @@ What follows is the verbatim write-up of the `README.txt` that I sent to Thought
 
 ---
 
-## Canada, Mars Rovers, C#
+# Canada, Mars Rovers, CSharp
 
-Solution coded entirely by David Haney
-Solution Started: Monday, September 07, 2009
-Solution Completed: Tuesday, September 08, 2009
-Total Time: Approximately 11 hours (2 design, 8 coding, 1 testing)
-Language: C#
-IDE: Visual Studio 2008
+Solution coded entirely by David Haney  
+Solution Started: Monday, September 07, 2009  
+Solution Completed: Tuesday, September 08, 2009  
+Total Time: Approximately 11 hours (2 design, 8 coding, 1 testing)  
+Language: C#  
+IDE: Visual Studio 2008  
 OS: Windows 7 Professional 64-bit
 
 ## How To Run The Application
