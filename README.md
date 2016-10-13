@@ -11,7 +11,15 @@ A good sign of progress to me has always been looking back at your prior work an
 
 I over-engineered the hell out of this problem. I have done some terrible, crazy, complex things in this code - and that's not including all of the awful XML comments. I hope that you'll find it as amusing as I do. Above all else, please do not mistake this repo for an example of good design patterns or programming practices: it's pretty much the opposite.
 
-**To give you an idea of exactly how much I over-engineered it, [here's a gist that I just wrote where I solve Mars Rovers in 22 lines of C#](https://gist.github.com/ironyx/efd06d4a4bcb543793ece855f301dd48)**. That gist took me only **20 minutes** to write, as compared to the **11 hours** it took me to write the solution in this repo!
+---
+
+### HOW I'D SOLVE IT TODAY
+
+**[Here's a gist that I just wrote where I solve Mars Rovers in 22 lines of C#](https://gist.github.com/haneytron/efd06d4a4bcb543793ece855f301dd48)**. That gist took me only **20 minutes** to write, as compared to the **11 hours** it took me to write the solution in this repo! I clearly over-engineered my original solution.
+
+---
+
+### WE'RE ALWAYS IMPROVING
 
 Our careers are an ever-evolving path, unique to each of us and filled with uncertainty, curiousity, and growth. I have a ways to go, but am pleased to see progress in myself. In other words: in many ways I'm still a bad coder, but not nearly as bad as I was in 2009. Today's David Haney would certainly not hire 2009 David Haney. 
 
@@ -78,7 +86,7 @@ Expected Output:
 
 ---
 
-What follows is the verbatim write-up of the `README.txt` that I sent to ThoughtWorks when I submitted this code. Enjoy.
+**What follows is the verbatim write-up of the `README.txt` that I sent to ThoughtWorks when I submitted this code. Enjoy.**
 
 ---
 
